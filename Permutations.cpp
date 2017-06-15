@@ -1,3 +1,7 @@
+/* 
+* Generate Permutation Set
+*/
+
 #include <stdio.h>
 const int NMAX = 4;
 
