@@ -122,7 +122,7 @@ int main()
 	Combi_Set_L(0, 0, 3);
 	printf("-> total combi set number is %d \n", cnt);
 	
-	for (int i = 0; i < NMAX; i++) Sel[i] = 0;
+	for (int i = 0; i < NMAX+1; i++) Sel[i] = 0;
 
 	printf("(2) L order R Combinations (4C3):\n");
 	cnt = 0;
