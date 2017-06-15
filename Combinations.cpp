@@ -11,9 +11,9 @@ int cnt;
 
 /*
 * Generate Combination Set
-* @ param s Start number (0 <= Src[s] < NMAX)
-* @ param k Selected sequence (0 <= Sel[k] < q)
-* @ param q Target number
+* @param s Start number (0 <= Src[s] < NMAX)
+* @param k Selected sequence (0 <= Sel[k] < q)
+* @param q Target number
 */
 void Combi_Set_L(int s, int k, int q)
 {
@@ -36,9 +36,9 @@ void Combi_Set_L(int s, int k, int q)
 
 /*
 * Generate Combination Set
-* @ param s Start number (0 <= Src[s] < NMAX)
-* @ param k Selected sequence (1 <= Sel[k] <= q)
-* @ param q Target number
+* @param s Start number (0 <= Src[s] < NMAX)
+* @param k Selected sequence (1 <= Sel[k] <= q)
+* @param q Target number
 */
 void Combi_Set_L2(int s, int k, int q)
 {
@@ -61,9 +61,9 @@ void Combi_Set_L2(int s, int k, int q)
 
 /*
 * Generate Repetition Combination Set
-* @ param s Start number (0 <= Src[s] < NMAX)
-* @ param k Selected sequence (1 <= Sel[k] <= q)
-* @ param q Target number
+* @param s Start number (0 <= Src[s] < NMAX)
+* @param k Selected sequence (1 <= Sel[k] <= q)
+* @param q Target number
 */
 void RCombi_Set_L(int s, int k, int q)
 {
@@ -92,9 +92,9 @@ void print_trr(int q)
 
 /*
 * Generate Repetition Combination Set
-* @ param n Start number (NMAX > Src[s] >= 0)
-* @ param r Selected number (Target > Sel[k] >= 0)
-* @ param q Target number
+* @param n Start number (NMAX > Src[s] >= 0)
+* @param r Selected number (Target > Sel[k] >= 0)
+* @param q Target number
 */
 void Combi_Set_AL(int n, int r, int q)
 {
